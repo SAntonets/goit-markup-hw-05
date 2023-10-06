@@ -524,11 +524,28 @@
             <textarea
               class="modal-input form-textarea"
               name="user-comment"
-              placeholder="Text-input"
+              placeholder="Text input"
               id="user-comment"
             ></textarea>
           </div>
-          <input type="checkbox" />
+          <div class="checkbox-wrap">
+            <input
+              type="checkbox"
+              id="user-privacy"
+              value="true"
+              name="user-privacy"
+              class="form-checkbox visually-hidden"
+            />
+            <label class="checkbox-label" for="user-privacy">
+              <span class="fake-box">
+                <svg class="fake-box-icon" width="8" height="10">
+                  <use href="./images/icons.svg#icon-Property-1click"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the</label
+            >
+          </div>
+
           <button class="modal-order-btn" type="submit">Send</button>
         </form>
       </div>
