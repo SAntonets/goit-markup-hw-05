@@ -658,6 +658,10 @@ ul {
   fill: #4d5ae5;
 }
 
+.textarea-wrapper {
+  margin-bottom: 16px;
+}
+
 .form-textarea {
   padding: 8px 8px 8px 16px;
   resize: none;
