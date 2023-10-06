@@ -702,10 +702,9 @@ ul {
 }
 
 .fake-box-icon {
-  fill: transparent;
 }
 
-.form-checkbox:checked + .fake-box {
+.form-checkbox:checked + .checkbox-label .fake-box {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
