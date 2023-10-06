@@ -707,7 +707,11 @@ ul {
 .form-checkbox:checked .fake-box {
   background-color: #404bbf;
   border: none;
-  ill: #f4f4fd;
+  fill: #f4f4fd;
+}
+
+.privacy-policy-link {
+  color: #4d5ae5;
 }
 
 .modal-order-btn {
