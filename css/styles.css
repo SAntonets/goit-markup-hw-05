@@ -723,6 +723,7 @@ ul {
 
 .privacy-policy-link {
   color: #4d5ae5;
+  text-decoration: underline;
 }
 
 .modal-order-btn {
@@ -766,7 +767,4 @@ ul {
 
 .modal-input-wrap {
   position: relative;
-}
-
-.is-open {
 }
